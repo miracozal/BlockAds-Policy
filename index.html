@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>BlockAds Privacy Policy</title>
 
     <style>
@@ -48,6 +49,17 @@
         a {
             color: #2563eb;
         }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            .container {
+                padding: 24px;
+                border-radius: 12px;
+            }
+        }
     </style>
 </head>
 
@@ -58,7 +70,7 @@
     <h1>BlockAds Privacy Policy</h1>
 
     <p class="updated">
-        Last updated: August 16, 2026
+        Last updated: August 17, 2026
     </p>
 
     <p>
@@ -79,16 +91,21 @@
 
     <ul>
         <li>The hostname or domain of the website currently being visited.</li>
-        <li>The current page URL when required for extension functionality.</li>
+        <li>The current page URL when required locally for extension functionality.</li>
         <li>Locally generated statistics about blocked advertisements and trackers.</li>
         <li>Your BlockAds settings and website-specific protection preferences.</li>
     </ul>
 
+    <p>
+        BlockAds does not automatically transmit your browsing history or the
+        full URLs of websites you visit.
+    </p>
+
     <h2>2. How Information Is Used</h2>
 
     <p>
-        This information is used solely to provide and improve BlockAds
-        functionality, including:
+        Information processed by BlockAds is used solely to provide and improve
+        the extension's user-facing functionality, including:
     </p>
 
     <ul>
@@ -97,6 +114,7 @@
         <li>Removing or hiding advertising elements from webpages.</li>
         <li>Applying website-specific protection preferences.</li>
         <li>Displaying local blocking statistics.</li>
+        <li>Investigating problems voluntarily reported by users.</li>
     </ul>
 
     <h2>3. Local Data Storage</h2>
@@ -107,68 +125,182 @@
     </p>
 
     <p>
-        This information remains on your device and is not transmitted to
-        BlockAds servers.
+        These locally stored preferences and statistics are not automatically
+        transmitted to the BlockAds feedback system or used to create a remote
+        browsing profile.
     </p>
 
-    <h2>4. Browsing Activity</h2>
+    <h2>4. Voluntary Problem Reports</h2>
+
+    <p>
+        BlockAds includes an optional problem reporting feature that allows users
+        to voluntarily report websites where advertisements, trackers, or related
+        unwanted content were not blocked correctly.
+    </p>
+
+    <p>
+        A problem report is transmitted only when the user explicitly chooses
+        to submit it.
+    </p>
+
+    <p>A submitted problem report may contain:</p>
+
+    <ul>
+        <li>The domain of the website where the problem occurred.</li>
+        <li>The problem description entered by the user.</li>
+        <li>The installed BlockAds extension version.</li>
+        <li>The date and time when the report was received.</li>
+    </ul>
+
+    <p>
+        BlockAds does not intentionally include the full page URL, browsing
+        history, account information, name, email address, or other directly
+        identifying information in these reports.
+    </p>
+
+    <p>
+        Users should avoid entering personal or sensitive information in the
+        problem description field.
+    </p>
+
+    <p>
+        Problem reports are used solely to investigate reported issues and
+        improve BlockAds advertisement and tracker blocking functionality.
+    </p>
+
+    <h2>5. Feedback Service</h2>
+
+    <p>
+        Voluntary problem reports are transmitted using Google Apps Script
+        and stored using Google Sheets infrastructure controlled by the
+        BlockAds developer.
+    </p>
+
+    <p>
+        Google may process technical information necessary to operate these
+        services in accordance with Google's own privacy and security practices.
+    </p>
+
+    <p>
+        BlockAds does not use submitted problem reports for advertising,
+        behavioral profiling, cross-site tracking, or sale to third parties.
+    </p>
+
+    <h2>6. Browsing Activity</h2>
 
     <p>
         BlockAds processes website information only when necessary to provide
-        its user-facing advertisement and tracker blocking features.
+        its user-facing advertisement and tracker blocking functionality.
     </p>
 
     <p>
-        BlockAds does not create a remote browsing history, behavioral profile,
-        or advertising profile based on the websites you visit.
+        BlockAds does not create or maintain a remote browsing history,
+        behavioral profile, or advertising profile based on the websites
+        you visit.
     </p>
-
-    <h2>5. Data Sharing</h2>
 
     <p>
-        BlockAds does not sell, rent, trade, or transfer your personal
-        information or browsing activity to advertisers, data brokers,
-        analytics companies, or other third parties.
+        A website domain is transmitted to the feedback service only when
+        the user voluntarily submits a problem report through BlockAds.
     </p>
 
-    <h2>6. Advertising</h2>
+    <p>
+        Normal browsing does not cause BlockAds to automatically transmit
+        visited website domains to the feedback service.
+    </p>
+
+    <h2>7. Data Sharing</h2>
+
+    <p>
+        BlockAds does not sell, rent, trade, or disclose browsing activity
+        or personal information to advertisers, data brokers, or analytics
+        companies.
+    </p>
+
+    <p>
+        Information voluntarily submitted through the problem reporting
+        feature is processed using Google infrastructure solely for receiving,
+        storing, reviewing, and investigating those reports.
+    </p>
+
+    <h2>8. Advertising</h2>
 
     <p>
         BlockAds does not use your browsing activity to display targeted
         advertising and does not inject advertisements into webpages.
     </p>
 
-    <h2>7. Analytics and Tracking</h2>
+    <h2>9. Analytics and Tracking</h2>
 
     <p>
-        BlockAds does not use third-party analytics services to track your
-        browsing activity.
+        BlockAds does not use third-party analytics services to monitor or
+        profile your browsing activity.
     </p>
 
-    <h2>8. Remote Code</h2>
+    <p>
+        BlockAds does not use submitted problem reports for analytics-based
+        advertising, behavioral profiling, or cross-site tracking.
+    </p>
+
+    <h2>10. Remote Code</h2>
 
     <p>
         BlockAds does not download or execute remote code as part of its
         browser extension functionality.
     </p>
 
-    <h2>9. Data Security</h2>
-
     <p>
-        BlockAds is designed to minimize data collection. Extension preferences
-        and statistics are stored locally wherever possible to reduce unnecessary
-        transmission of user information.
+        Communication with the BlockAds feedback service is used only to
+        transmit voluntary problem reports and does not download executable
+        extension code.
     </p>
 
-    <h2>10. Changes to This Privacy Policy</h2>
+    <h2>11. Data Security</h2>
 
     <p>
-        This Privacy Policy may be updated if BlockAds features or data
-        practices change. Any changes will be published on this page with
-        an updated revision date.
+        BlockAds is designed to minimize the amount of user information
+        processed or transmitted. Extension preferences and blocking
+        statistics are stored locally wherever possible.
     </p>
 
-    <h2>11. Contact</h2>
+    <p>
+        Information transmitted through the optional problem reporting
+        feature is limited to the information reasonably necessary to
+        investigate reported blocking problems.
+    </p>
+
+    <p>
+        BlockAds does not intentionally collect passwords, payment information,
+        authentication credentials, or other sensitive account information.
+    </p>
+
+    <h2>12. Data Retention</h2>
+
+    <p>
+        Local BlockAds settings and statistics remain in Chrome extension
+        storage until they are changed, cleared, or the extension is removed,
+        subject to Chrome's storage behavior.
+    </p>
+
+    <p>
+        Voluntary problem reports may be retained for as long as reasonably
+        necessary to investigate reported issues, improve BlockAds, and maintain
+        the reliability of its blocking functionality.
+    </p>
+
+    <h2>13. Changes to This Privacy Policy</h2>
+
+    <p>
+        This Privacy Policy may be updated if BlockAds features, infrastructure,
+        or data practices change.
+    </p>
+
+    <p>
+        Any changes will be published on this page together with an updated
+        revision date.
+    </p>
+
+    <h2>14. Contact</h2>
 
     <p>
         If you have questions regarding this Privacy Policy or BlockAds privacy
